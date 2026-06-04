@@ -34,11 +34,12 @@ More details can be found on the [Projects](/portfolio/) and [Publications](/pub
 
 Besides academic research, I also write notes and reflections on graduate study, research practice, paper writing, and technical learning.
 
-* WeChat Official Account: ![Douglas 交通](/images/wechat_qrcode.png)
+* WeChat Official Account: Douglas 交通
+![WeChat Official Account QR Code](/images/wechat_qrcode.png)
 * CSDN: [Douglassssssss](https://blog.csdn.net/Douglassssssss)
 
 ## Contact
 
 * Email: douglas@nefu.edu.cn
 * GitHub: [Douglassssss](https://github.com/Douglassssss)
-* ORCID: https://orcid.org/my-orcid?orcid=0009-0006-6013-1733
+* ORCID: [0009-0006-6013-1733](https://orcid.org/0009-0006-6013-1733)
