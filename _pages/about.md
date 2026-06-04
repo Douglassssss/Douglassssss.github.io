@@ -1,16 +1,13 @@
 ---
-
 permalink: /
 title: "About Me"
 author_profile: true
 redirect_from:
-
-* /about/
-* /about.html
-
+  - /about/
+  - /about.html
 ---
 
-I am currently a master's student in Transportation Engineering at Northeast Forestry University. My research focuses on vision-based 3D perception, roadside traffic environment perception, and bird's-eye-view representation learning for Intelligent Transportation System.
+I am currently a master's student in Transportation Engineering at Northeast Forestry University. My research focuses on vision-based 3D perception, roadside traffic environment perception, and bird's-eye-view representation learning for intelligent transportation systems.
 
 My recent work explores BEV-based traffic object perception from monocular and fixed roadside cameras, including distance and orientation estimation, roadside 3D object detection, and scene-wise memory-enhanced BEV perception.
 
