@@ -15,7 +15,7 @@ My recent work explores BEV-based traffic object perception from monocular and f
 
 * Roadside traffic environment perception
 * Vision-based 3D object detection
-* Bird's-eye-view representation learning
+* Bird's-Eye-View representation learning
 * Intelligent transportation systems
 * Scene-wise perception for fixed roadside cameras
 
