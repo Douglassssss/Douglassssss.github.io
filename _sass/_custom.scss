@@ -1,3 +1,7 @@
+/* =========================================================
+   Homepage layout
+   ========================================================= */
+
 .homepage-hero {
   padding: 1.4rem 1.6rem;
   margin-bottom: 1.6rem;
@@ -98,38 +102,83 @@
   }
 }
 
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
 .page__footer {
   display: none !important;
 }
 
-/* ===== Author profile icon alignment ===== */
 
+/* =========================================================
+   Author profile: icon alignment and colors
+   ========================================================= */
+
+/* Basic spacing for each sidebar row */
+.author__urls li {
+  margin-bottom: 0.35rem !important;
+  line-height: 1.35 !important;
+}
+
+/*
+  Unify different structures:
+  1. <li><i></i> Location text</li>
+  2. <li><a><i></i>Email</a></li>
+  3. <li><span class="author-custom-link"><i></i>WeChat</span></li>
+*/
+.author__urls li,
 .author__urls li a,
 .author__urls li .author-custom-link {
   display: flex !important;
   align-items: center !important;
-  gap: 0.42rem !important;
 }
 
-/* Make all Font Awesome icons occupy the same width */
-.author__urls li i.fa-fw {
-  width: 1.25em !important;
-  min-width: 1.25em !important;
+/* Remove extra gap rules from possible previous styles */
+.author__urls li a,
+.author__urls li .author-custom-link {
+  gap: 0 !important;
+}
+
+/* Font Awesome icons */
+.author__urls li > i,
+.author__urls li a > i,
+.author__urls li .author-custom-link > i {
+  width: 1.35em !important;
+  min-width: 1.35em !important;
+  flex: 0 0 1.35em !important;
+  margin-right: 0.58rem !important;
+  text-align: center !important;
+}
+
+/* Academicons icons, e.g., ORCID */
+.author__urls li > .ai,
+.author__urls li a > .ai,
+.author__urls li .author-custom-link > .ai {
+  width: 1.35em !important;
+  min-width: 1.35em !important;
+  flex: 0 0 1.35em !important;
+  margin-right: 0.58rem !important;
   text-align: center !important;
 }
 
 /* Custom image icon, e.g., CSDN */
 .author-icon-img {
-  width: 1.25em !important;
-  height: 1.25em !important;
-  min-width: 1.25em !important;
+  width: 1.05em !important;
+  height: 1.05em !important;
+  min-width: 1.35em !important;
+  flex: 0 0 1.35em !important;
+  margin-right: 0.58rem !important;
   object-fit: contain !important;
   display: inline-block !important;
 }
 
-/* WeChat brand color */
-.author-icon-wechat {
-  color: #07c160 !important;
+/* Prevent non-link WeChat row from looking strange */
+.author-custom-link.no-link,
+.author__urls li .author-custom-link {
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 /* Location icon */
@@ -153,76 +202,13 @@
 }
 
 /* ORCID icon */
-.author__urls .fa-orcid {
-  color: #a6ce39 !important;
-}
-
-/* ===== Fix author profile alignment ===== */
-
-.author__urls li {
-  margin-bottom: 0.35rem !important;
-}
-
-/* Unify all clickable and non-clickable author profile rows */
-.author__urls li a,
-.author__urls li .author-custom-link {
-  display: grid !important;
-  grid-template-columns: 1.35em auto !important;
-  column-gap: 0.42rem !important;
-  align-items: center !important;
-  width: fit-content !important;
-}
-
-/* Font Awesome icons */
-.author__urls li i {
-  width: 1.35em !important;
-  min-width: 1.35em !important;
-  margin-right: 0 !important;
-  text-align: center !important;
-}
-
-/* Academicons icons, such as ORCID */
-.author__urls li .ai {
-  width: 1.35em !important;
-  min-width: 1.35em !important;
-  margin-right: 0 !important;
-  text-align: center !important;
-}
-
-/* Custom image icon, e.g., CSDN */
-.author-icon-img {
-  width: 1.05em !important;
-  height: 1.05em !important;
-  min-width: 1.35em !important;
-  object-fit: contain !important;
-  display: inline-block !important;
-  margin-right: 0 !important;
-}
-
-/* Icon colors */
-.author-icon-wechat,
-.author__urls .fa-weixin {
-  color: #07c160 !important;
-}
-
-.author__urls .fa-map-marker,
-.author__urls .fa-map-marker-alt,
-.author__urls .fa-location-dot {
-  color: #e74c3c !important;
-}
-
-.author__urls .fa-building,
-.author__urls .fa-building-columns,
-.author__urls .fa-university {
-  color: #2563eb !important;
-}
-
-.author__urls .fa-envelope,
-.author__urls .fa-envelope-square {
-  color: #ea4335 !important;
-}
-
 .author__urls .ai-orcid,
 .author__urls .fa-orcid {
   color: #a6ce39 !important;
+}
+
+/* WeChat icon */
+.author-icon-wechat,
+.author__urls .fa-weixin {
+  color: #07c160 !important;
 }
