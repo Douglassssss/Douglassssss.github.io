@@ -24,7 +24,7 @@ repository               : "Douglassssss/Douglassssss.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Douglas"
+  name             : "Junjie Lai"
   pronouns         : # example: "she/her"  
   bio              : "M.S. student in Transportation Engineering"
   location         : "Harbin, China"
@@ -51,7 +51,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "Douglassssss" # Username - Update with your username on the site
+  github           : # "Douglassssss" # Username - Update with your username on the site
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -81,6 +81,8 @@ author:
   xing             : # Username
   youtube          : # Username
   zhihu            : # Username
+  wechat_name      : "Douglas 交通"
+  csdn             : "https://blog.csdn.net/Douglassssssss"
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
