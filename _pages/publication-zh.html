@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "论文"
+permalink: /zh/publications/
+author_profile: true
+lang: zh
+---
+
+{% include base_path %}
+
+<p>这里将展示我的论文和投稿中的研究工作。</p>
+
+{% for post in site.publications reversed %}
+  {% include archive-single.html %}
+{% endfor %}

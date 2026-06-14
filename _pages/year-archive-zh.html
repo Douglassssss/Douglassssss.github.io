@@ -1,0 +1,15 @@
+---
+layout: archive
+title: "博客"
+permalink: /zh/blog/
+author_profile: true
+lang: zh
+---
+
+{% include base_path %}
+
+<p>这里将记录我的科研实践、技术学习和研究生阶段思考。</p>
+
+{% for post in site.posts %}
+  {% include archive-single.html %}
+{% endfor %}
