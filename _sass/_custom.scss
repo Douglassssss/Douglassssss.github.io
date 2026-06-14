@@ -156,3 +156,73 @@
 .author__urls .fa-orcid {
   color: #a6ce39 !important;
 }
+
+/* ===== Fix author profile alignment ===== */
+
+.author__urls li {
+  margin-bottom: 0.35rem !important;
+}
+
+/* Unify all clickable and non-clickable author profile rows */
+.author__urls li a,
+.author__urls li .author-custom-link {
+  display: grid !important;
+  grid-template-columns: 1.35em auto !important;
+  column-gap: 0.42rem !important;
+  align-items: center !important;
+  width: fit-content !important;
+}
+
+/* Font Awesome icons */
+.author__urls li i {
+  width: 1.35em !important;
+  min-width: 1.35em !important;
+  margin-right: 0 !important;
+  text-align: center !important;
+}
+
+/* Academicons icons, such as ORCID */
+.author__urls li .ai {
+  width: 1.35em !important;
+  min-width: 1.35em !important;
+  margin-right: 0 !important;
+  text-align: center !important;
+}
+
+/* Custom image icon, e.g., CSDN */
+.author-icon-img {
+  width: 1.05em !important;
+  height: 1.05em !important;
+  min-width: 1.35em !important;
+  object-fit: contain !important;
+  display: inline-block !important;
+  margin-right: 0 !important;
+}
+
+/* Icon colors */
+.author-icon-wechat,
+.author__urls .fa-weixin {
+  color: #07c160 !important;
+}
+
+.author__urls .fa-map-marker,
+.author__urls .fa-map-marker-alt,
+.author__urls .fa-location-dot {
+  color: #e74c3c !important;
+}
+
+.author__urls .fa-building,
+.author__urls .fa-building-columns,
+.author__urls .fa-university {
+  color: #2563eb !important;
+}
+
+.author__urls .fa-envelope,
+.author__urls .fa-envelope-square {
+  color: #ea4335 !important;
+}
+
+.author__urls .ai-orcid,
+.author__urls .fa-orcid {
+  color: #a6ce39 !important;
+}
