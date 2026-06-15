@@ -417,3 +417,56 @@ body {
 .page__content .btn {
   text-decoration: none !important;
 }
+
+/* =========================================================
+   Sidebar link hover: underline text only
+   ========================================================= */
+
+/* Default sidebar links */
+.author__urls li > a {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+/* Do not underline the whole link box */
+.author__urls li > a:hover {
+  color: #1d4ed8 !important;
+  text-decoration: none !important;
+}
+
+/* Underline only the text span */
+.author__urls li > a:hover .author-link-text {
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+}
+
+/* Non-link rows, such as WeChat Official Account */
+.author__urls li .author-custom-link.no-link {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: default !important;
+}
+
+/* WeChat should not behave like a link */
+.author__urls li .author-custom-link.no-link:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* CSDN link */
+.author__urls li > a.author-csdn-link {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.author__urls li > a.author-csdn-link:hover {
+  color: #1d4ed8 !important;
+  text-decoration: none !important;
+}
+
+.author__urls li > a.author-csdn-link:hover .author-link-text {
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+}
