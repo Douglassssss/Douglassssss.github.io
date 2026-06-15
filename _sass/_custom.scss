@@ -217,3 +217,153 @@
 .author__urls .fa-weixin {
   color: #07c160 !important;
 }
+
+
+/* =========================================================
+   Global typography: unified sans-serif style
+   ========================================================= */
+
+/* Global font family */
+html,
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Microsoft YaHei", "微软雅黑", "Noto Sans CJK SC", "Noto Sans SC",
+               "PingFang SC", "Hiragino Sans GB", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+/* Base font size */
+html {
+  font-size: 15px !important;
+}
+
+body {
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+  font-weight: 400 !important;
+}
+
+/* Top navigation */
+.masthead,
+.masthead__menu,
+.greedy-nav,
+.greedy-nav a,
+.masthead__menu-item {
+  font-family: inherit !important;
+  font-size: 0.92rem !important;
+  font-weight: 500 !important;
+}
+
+/* Site title in navigation */
+.masthead__menu-item--lg a {
+  font-size: 0.98rem !important;
+  font-weight: 600 !important;
+}
+
+/* Sidebar profile */
+.author__name {
+  font-family: inherit !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+}
+
+.author__bio {
+  font-family: inherit !important;
+  font-size: 0.88rem !important;
+  line-height: 1.45 !important;
+}
+
+.author__urls,
+.author__urls li,
+.author__urls li a,
+.author__urls li .author-custom-link {
+  font-family: inherit !important;
+  font-size: 0.88rem !important;
+  line-height: 1.35 !important;
+}
+
+/* Main content */
+.page__content {
+  font-family: inherit !important;
+  font-size: 0.96rem !important;
+  line-height: 1.7 !important;
+}
+
+.page__content p,
+.page__content li {
+  font-size: 0.96rem !important;
+  line-height: 1.7 !important;
+}
+
+/* Section titles */
+.page__content h1 {
+  font-family: inherit !important;
+  font-size: 1.35rem !important;
+  font-weight: 650 !important;
+  margin-top: 1.8rem !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.page__content h2 {
+  font-family: inherit !important;
+  font-size: 1.22rem !important;
+  font-weight: 650 !important;
+  margin-top: 1.7rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.page__content h3 {
+  font-family: inherit !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  margin-top: 1.3rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Homepage custom blocks */
+.homepage-hero h1 {
+  font-family: inherit !important;
+  font-size: 1.45rem !important;
+  font-weight: 650 !important;
+}
+
+.homepage-hero p,
+.project-card p,
+.writing-box p {
+  font-family: inherit !important;
+  font-size: 0.95rem !important;
+  line-height: 1.7 !important;
+}
+
+.research-tags span {
+  font-family: inherit !important;
+  font-size: 0.82rem !important;
+}
+
+/* Buttons */
+.btn,
+.btn--primary,
+.btn--inverse {
+  font-family: inherit !important;
+  font-size: 0.86rem !important;
+  font-weight: 500 !important;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14.5px !important;
+  }
+
+  .page__content {
+    font-size: 0.95rem !important;
+  }
+
+  .masthead__menu-item,
+  .greedy-nav a {
+    font-size: 0.9rem !important;
+  }
+}
