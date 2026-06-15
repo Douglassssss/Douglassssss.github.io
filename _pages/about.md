@@ -15,7 +15,12 @@ My recent work studies how visual perception can be improved in roadside and tra
 
 Besides academic research, I also write notes and reflections on graduate study, research practice, paper writing, and technical learning. I share some of these writings through my WeChat Official Account **Douglas 交通** and CSDN blog [Douglassssssss](https://blog.csdn.net/Douglassssssss).
 
-## 📝 Publications {#publications}
+## 📖 Educations {#educations}
+
+* **Sep. 2024 – Present**, M.S. in Transportation Engineering, Northeast Forestry University, Harbin.
+* **Sep. 2020 – Jun. 2024**, B.S. in Traffic Engineering, East China Jiaotong University, Nanchang.
+* **Sep. 2017 – Jun. 2020**, Guangchang No. 1 High School, Fuzhou.
+
 
 ## 🎖 Honors and Awards {#honors-and-awards}
 

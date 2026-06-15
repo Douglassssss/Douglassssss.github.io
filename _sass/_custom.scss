@@ -367,3 +367,53 @@ body {
     font-size: 0.9rem !important;
   }
 }
+
+/* =========================================================
+   Link interaction and colors
+   ========================================================= */
+
+/* Sidebar links: restore hover interaction */
+.author__urls li > a {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+.author__urls li > a:hover {
+  color: #1d4ed8 !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+}
+
+/* Non-link items, such as WeChat name */
+.author__urls li .author-custom-link,
+.author-custom-link.no-link {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: default !important;
+}
+
+.author__urls li .author-custom-link:hover,
+.author-custom-link.no-link:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+/* Main content links */
+.page__content a {
+  color: #1d4ed8 !important;
+  text-decoration: underline !important;
+  text-decoration-color: rgba(29, 78, 216, 0.35) !important;
+  text-underline-offset: 2px !important;
+}
+
+.page__content a:hover {
+  color: #1e40af !important;
+  text-decoration-color: #1e40af !important;
+}
+
+/* Avoid forcing button links to look like text links */
+.page__content a.btn,
+.page__content .btn {
+  text-decoration: none !important;
+}
