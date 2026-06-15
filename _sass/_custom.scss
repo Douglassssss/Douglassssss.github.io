@@ -113,38 +113,46 @@
 
 
 /* =========================================================
-   Author profile: icon alignment and colors
+   Author profile: icon alignment, spacing, and colors
    ========================================================= */
 
-/* Basic spacing for each sidebar row */
+/* Force sidebar list to stay vertical */
+.author__urls {
+  display: block !important;
+}
+
+/* Each row has the same vertical rhythm */
 .author__urls li {
-  margin-bottom: 0.35rem !important;
+  display: flex !important;
+  align-items: center !important;
+  margin: 0 0 0.38rem 0 !important;
+  padding: 0 !important;
   line-height: 1.35 !important;
 }
 
-/*
-  Unify different structures:
-  1. <li><i></i> Location text</li>
-  2. <li><a><i></i>Email</a></li>
-  3. <li><span class="author-custom-link"><i></i>WeChat</span></li>
-*/
-.author__urls li,
-.author__urls li a,
-.author__urls li .author-custom-link {
+/* Normalize links and custom non-link rows */
+.author__urls li > a,
+.author__urls li > .author-custom-link {
   display: flex !important;
   align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.35 !important;
+  text-decoration: none !important;
 }
 
-/* Remove extra gap rules from possible previous styles */
-.author__urls li a,
-.author__urls li .author-custom-link {
-  gap: 0 !important;
+/* Remove default extra spacing from icons */
+.author__urls li i,
+.author__urls li .ai,
+.author__urls li img.author-icon-img {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 /* Font Awesome icons */
 .author__urls li > i,
-.author__urls li a > i,
-.author__urls li .author-custom-link > i {
+.author__urls li > a > i,
+.author__urls li > .author-custom-link > i {
   width: 1.35em !important;
   min-width: 1.35em !important;
   flex: 0 0 1.35em !important;
@@ -152,10 +160,10 @@
   text-align: center !important;
 }
 
-/* Academicons icons, e.g., ORCID */
+/* Academicons icons, such as ORCID */
 .author__urls li > .ai,
-.author__urls li a > .ai,
-.author__urls li .author-custom-link > .ai {
+.author__urls li > a > .ai,
+.author__urls li > .author-custom-link > .ai {
   width: 1.35em !important;
   min-width: 1.35em !important;
   flex: 0 0 1.35em !important;
@@ -174,11 +182,11 @@
   display: inline-block !important;
 }
 
-/* Prevent non-link WeChat row from looking strange */
+/* Keep WeChat row visually like other rows, but not like a link */
 .author-custom-link.no-link,
 .author__urls li .author-custom-link {
   color: inherit !important;
-  text-decoration: none !important;
+  cursor: default !important;
 }
 
 /* Location icon */
