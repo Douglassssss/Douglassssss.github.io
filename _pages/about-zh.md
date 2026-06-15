@@ -12,7 +12,7 @@ lang: zh
 
 我的近期研究围绕路侧与交通场景中的视觉感知方法展开，尝试结合相机几何、深度感知视角转换、BEV 表示以及场景级先验信息，提高交通目标感知的鲁棒性和准确性。
 
-除学术研究外，我也会记录研究生阶段的科研实践、论文写作、技术学习和阶段性思考。部分内容会发布在微信公众号 **Douglas 交通** 和 CSDN 博客 [Douglassssssss](https://blog.csdn.net/Douglassssssss) 上。
+除学术研究外，我也会记录研究生阶段的科研实践、论文写作、技术学习和阶段性思考。部分内容会发布在微信公众号 **Douglas 交通** 和 [CSDN](https://blog.csdn.net/Douglassssssss) 上。
 
 ## 📝 论文 {#publications}
 
