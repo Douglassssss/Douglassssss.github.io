@@ -26,7 +26,6 @@ Besides academic research, I also write notes and reflections on graduate study,
   <div class="paper-box-text">
     <p class="paper-title">BEVDistance: Monocular Vehicle Distance and Orientation Perception Based on Bird's-Eye-View Features</p>
 
-```
 <p class="paper-authors">Huizhi Xu, <strong>Junjie Lai</strong></p>
 
 <p class="paper-venue"><em>Computer Engineering and Applications</em>, 2026. Accepted.</p>
@@ -35,7 +34,6 @@ Besides academic research, I also write notes and reflections on graduate study,
   <li>This work formulates monocular vehicle distance and orientation perception as a BEV-plane detection problem.</li>
   <li>It combines depth-aware view transformation, BEV representation, and CenterNet-style detection for joint distance and orientation estimation.</li>
 </ul>
-```
 
   </div>
 </div>

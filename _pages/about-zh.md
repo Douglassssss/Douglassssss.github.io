@@ -24,7 +24,6 @@ lang: zh
   <div class="paper-box-text">
     <p class="paper-title">BEVDistance：基于鸟瞰图特征的单目视觉车辆距离与姿态感知</p>
 
-```
 <p class="paper-authors">徐慧智，<strong>赖俊杰</strong></p>
 
 <p class="paper-venue">《计算机工程与应用》，2026。已录用。</p>
@@ -33,7 +32,6 @@ lang: zh
   <li>该工作将单目视觉下的车辆距离与姿态感知转化为 BEV 平面上的目标检测问题。</li>
   <li>方法结合深度感知视角转换、BEV 表示以及 CenterNet 风格检测头，实现车辆距离与姿态的联合估计。</li>
 </ul>
-```
 
   </div>
 </div>
