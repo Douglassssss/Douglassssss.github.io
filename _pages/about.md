@@ -15,20 +15,26 @@ My recent work studies how visual perception can be improved in roadside and tra
 
 Besides academic research, I also write notes and reflections on graduate study, research practice, paper writing, and technical learning. I share some of these writings through my WeChat Official Account **Douglas 交通** and [CSDN](https://blog.csdn.net/Douglassssssss).
 
+
 ## 📝 Publications {#publications}
 
-<div class="pub-card" markdown="1">
+<div class="paper-box">
+  <div class="paper-box-image">
+    <div>
+      <div class="badge">CEA 2026</div>
+      <img src="/images/bevdistance.png" alt="BEVDistance" width="100%" />
+    </div>
+  </div>
 
-<div class="pub-badge">Accepted</div>
+  <div class="paper-box-text" markdown="1">
 
-### BEVDistance: Monocular Vehicle Distance and Orientation Perception Based on Bird's-Eye-View Features
-
-**Huizhi Xu, Junjie Lai**
-
+**BEVDistance: Monocular Vehicle Distance and Orientation Perception Based on Bird's-Eye-View Features**
+Huizhi Xu, **Junjie Lai**
 *Computer Engineering and Applications*, 2026.
 
-**Notes:** First student author; EI-indexed journal; Peking University Core Journal.
-
+* This work formulates monocular vehicle distance and orientation perception as a BEV-plane detection problem.
+* It combines depth-aware view transformation, BEV representation, and CenterNet-style detection for joint distance and orientation estimation.
+  </div>
 </div>
 
 * **Junjie Lai**, Huizhi Xu. **BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception**. *IEEE Transactions on Intelligent Transportation Systems*, 2026. Manuscript under review.
