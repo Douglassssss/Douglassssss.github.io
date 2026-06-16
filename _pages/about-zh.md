@@ -18,7 +18,7 @@ lang: zh
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/bevdistance.png" alt="BEVDistance">
+    <img src="/images/bevdistance.jpg" alt="BEVDistance">
   </div>
 
   <div class="paper-box-text">
@@ -32,7 +32,6 @@ lang: zh
 <ul>
   <li>该工作将单目视觉下的车辆距离与姿态感知转化为 BEV 平面上的目标检测问题。</li>
   <li>方法结合深度感知视角转换、BEV 表示以及 CenterNet 风格检测头，实现车辆距离与姿态的联合估计。</li>
-  <li><strong>说明：</strong>导师外第一作者；EI、北大核心；已录用。</li>
 </ul>
 ```
 

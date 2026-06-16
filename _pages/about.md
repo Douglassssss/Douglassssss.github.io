@@ -20,7 +20,7 @@ Besides academic research, I also write notes and reflections on graduate study,
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <img src="/images/bevdistance.png" alt="BEVDistance">
+    <img src="/images/bevdistance.jpg" alt="BEVDistance">
   </div>
 
   <div class="paper-box-text">
@@ -34,7 +34,6 @@ Besides academic research, I also write notes and reflections on graduate study,
 <ul>
   <li>This work formulates monocular vehicle distance and orientation perception as a BEV-plane detection problem.</li>
   <li>It combines depth-aware view transformation, BEV representation, and CenterNet-style detection for joint distance and orientation estimation.</li>
-  <li><strong>Notes:</strong> First student author; EI-indexed journal; Peking University Core Journal.</li>
 </ul>
 ```
 
