@@ -20,7 +20,7 @@ lang: zh
   <div class="paper-box-image">
     <div>
       <div class="badge">计算机工程与应用 2026</div>
-      <img src="/images/bevdistance.png" alt="BEVDistance" width="100%" />
+      <img src="/images/bevdistance.jpg" alt="BEVDistance" width="100%" />
     </div>
   </div>
 

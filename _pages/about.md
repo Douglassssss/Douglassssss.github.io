@@ -22,7 +22,7 @@ Besides academic research, I also write notes and reflections on graduate study,
   <div class="paper-box-image">
     <div>
       <div class="badge">CEA 2026</div>
-      <img src="/images/bevdistance.png" alt="BEVDistance" width="100%" />
+      <img src="/images/bevdistance.jpg" alt="BEVDistance" width="100%" />
     </div>
   </div>
 
