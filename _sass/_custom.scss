@@ -471,3 +471,83 @@ body {
   text-underline-offset: 2px !important;
 }
 
+/* =========================================================
+   Publication paper cards
+   ========================================================= */
+
+.paper-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin: 1rem 0 1.25rem 0;
+  padding: 1rem;
+  border: 1px solid #dbe5ef;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+}
+
+.paper-box-image {
+  flex: 0 0 28%;
+  max-width: 28%;
+}
+
+.paper-box-image > div {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #f8fafc;
+}
+
+.paper-box-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.paper-box-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.paper-box-text p {
+  margin-top: 0 !important;
+  margin-bottom: 0.45rem !important;
+}
+
+.paper-box-text ul {
+  margin-top: 0.45rem !important;
+  margin-bottom: 0 !important;
+}
+
+.paper-box-text li {
+  margin-bottom: 0.25rem !important;
+}
+
+.badge {
+  position: absolute;
+  top: 0.45rem;
+  left: 0.45rem;
+  z-index: 2;
+  padding: 0.18rem 0.5rem;
+  border-radius: 6px;
+  background: #1d4ed8;
+  color: #ffffff;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 768px) {
+  .paper-box {
+    flex-direction: column;
+  }
+
+  .paper-box-image {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+}
