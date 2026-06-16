@@ -20,26 +20,33 @@ Besides academic research, I also write notes and reflections on graduate study,
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <div>
-      <div class="badge">CEA 2026</div>
-      <img src="/images/bevdistance.jpg" alt="BEVDistance" width="100%" />
-    </div>
+    <img src="/images/bevdistance.png" alt="BEVDistance">
   </div>
 
-  <div class="paper-box-text" markdown="1">
+  <div class="paper-box-text">
+    <p class="paper-title">BEVDistance: Monocular Vehicle Distance and Orientation Perception Based on Bird's-Eye-View Features</p>
 
-**BEVDistance: Monocular Vehicle Distance and Orientation Perception Based on Bird's-Eye-View Features**
-Huizhi Xu, **Junjie Lai**
-*Computer Engineering and Applications*, 2026.
+```
+<p class="paper-authors">Huizhi Xu, <strong>Junjie Lai</strong></p>
 
-* This work formulates monocular vehicle distance and orientation perception as a BEV-plane detection problem.
-* It combines depth-aware view transformation, BEV representation, and CenterNet-style detection for joint distance and orientation estimation.
+<p class="paper-venue"><em>Computer Engineering and Applications</em>, 2026. Accepted.</p>
+
+<ul>
+  <li>This work formulates monocular vehicle distance and orientation perception as a BEV-plane detection problem.</li>
+  <li>It combines depth-aware view transformation, BEV representation, and CenterNet-style detection for joint distance and orientation estimation.</li>
+  <li><strong>Notes:</strong> First student author; EI-indexed journal; Peking University Core Journal.</li>
+</ul>
+```
+
   </div>
 </div>
 
-* **Junjie Lai**, Huizhi Xu. **BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception**. *IEEE Transactions on Intelligent Transportation Systems*, 2026. Manuscript under review.
-* Huizhi Xu, **Junjie Lai**, Yulong Chen, et al. **ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection**. In *The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation*, 2026. EI-indexed.
-* Huizhi Xu, Xinying Tao, **Junjie Lai**, et al. **Vehicle Tracking and Trajectory Extraction Based on Deep Learning**. In *Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)*, 2026. EI-indexed.
+<ul class="publication-list">
+  <li><strong>Junjie Lai</strong>, Huizhi Xu. <strong>BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception</strong>. <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2026. Manuscript under review.</li>
+  <li>Huizhi Xu, <strong>Junjie Lai</strong>, Yulong Chen, et al. <strong>ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection</strong>. In <em>The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation</em>, 2026. EI-indexed.</li>
+  <li>Huizhi Xu, Xinying Tao, <strong>Junjie Lai</strong>, et al. <strong>Vehicle Tracking and Trajectory Extraction Based on Deep Learning</strong>. In <em>Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)</em>, 2026. EI-indexed.</li>
+</ul>
+
 
 
 ## 🎖 Honors and Awards {#honors-and-awards}

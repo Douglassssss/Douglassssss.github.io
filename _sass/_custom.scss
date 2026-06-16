@@ -472,82 +472,98 @@ body {
 }
 
 /* =========================================================
-   Publication paper cards
-   ========================================================= */
+Publications: paper card
+========================================================= */
 
 .paper-box {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  margin: 1rem 0 1.25rem 0;
-  padding: 1rem;
-  border: 1px solid #dbe5ef;
-  border-radius: 12px;
-  background: #ffffff;
-  box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+display: flex;
+align-items: stretch;
+gap: 1.2rem;
+margin: 1.1rem 0 1.25rem 0;
+padding: 1rem;
+border: 1px solid #dbe5ef;
+border-radius: 12px;
+background: #ffffff;
+box-shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
 }
 
 .paper-box-image {
-  flex: 0 0 28%;
-  max-width: 28%;
-}
-
-.paper-box-image > div {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  border: 1px solid #e5e7eb;
-  background: #f8fafc;
+flex: 0 0 42%;
+max-width: 42%;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+border-radius: 10px;
+border: 1px solid #e5e7eb;
+background: #f8fafc;
 }
 
 .paper-box-image img {
-  display: block;
-  width: 100%;
-  height: auto;
+display: block;
+width: 100%;
+height: auto;
+object-fit: contain;
 }
 
 .paper-box-text {
-  flex: 1;
-  min-width: 0;
+flex: 1;
+min-width: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
-.paper-box-text p {
-  margin-top: 0 !important;
-  margin-bottom: 0.45rem !important;
+.paper-title {
+margin: 0 0 0.45rem 0 !important;
+font-size: 1.02rem !important;
+line-height: 1.45 !important;
+font-weight: 650 !important;
+}
+
+.paper-authors {
+margin: 0 0 0.3rem 0 !important;
+font-size: 0.94rem !important;
+line-height: 1.5 !important;
+}
+
+.paper-venue {
+margin: 0 0 0.55rem 0 !important;
+font-size: 0.92rem !important;
+line-height: 1.5 !important;
+color: #4b5563 !important;
 }
 
 .paper-box-text ul {
-  margin-top: 0.45rem !important;
-  margin-bottom: 0 !important;
+margin: 0.35rem 0 0 1.1rem !important;
+padding-left: 0.4rem !important;
 }
 
 .paper-box-text li {
-  margin-bottom: 0.25rem !important;
+margin-bottom: 0.28rem !important;
+font-size: 0.92rem !important;
+line-height: 1.55 !important;
 }
 
-.badge {
-  position: absolute;
-  top: 0.45rem;
-  left: 0.45rem;
-  z-index: 2;
-  padding: 0.18rem 0.5rem;
-  border-radius: 6px;
-  background: #1d4ed8;
-  color: #ffffff;
-  font-size: 0.72rem;
-  font-weight: 600;
-  line-height: 1.2;
+.publication-list {
+margin-top: 0.8rem !important;
+padding-left: 1.2rem !important;
+}
+
+.publication-list li {
+margin-bottom: 0.45rem !important;
+line-height: 1.6 !important;
 }
 
 /* Mobile layout */
 @media screen and (max-width: 768px) {
-  .paper-box {
-    flex-direction: column;
-  }
+.paper-box {
+flex-direction: column;
+}
 
-  .paper-box-image {
-    flex: 0 0 auto;
-    max-width: 100%;
-    width: 100%;
-  }
+.paper-box-image {
+flex: 0 0 auto;
+max-width: 100%;
+width: 100%;
+}
 }

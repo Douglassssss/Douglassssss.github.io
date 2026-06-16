@@ -18,28 +18,33 @@ lang: zh
 
 <div class="paper-box">
   <div class="paper-box-image">
-    <div>
-      <div class="badge">计算机工程与应用 2026</div>
-      <img src="/images/bevdistance.jpg" alt="BEVDistance" width="100%" />
-    </div>
+    <img src="/images/bevdistance.png" alt="BEVDistance">
   </div>
 
-  <div class="paper-box-text" markdown="1">
+  <div class="paper-box-text">
+    <p class="paper-title">BEVDistance：基于鸟瞰图特征的单目视觉车辆距离与姿态感知</p>
 
-**BEVDistance：基于鸟瞰图特征的单目视觉车辆距离与姿态感知**
-徐慧智，**赖俊杰**
-《计算机工程与应用》，2026。
+```
+<p class="paper-authors">徐慧智，<strong>赖俊杰</strong></p>
 
-* 该工作将单目视觉下的车辆距离与姿态感知转化为 BEV 平面上的目标检测问题。
-* 方法结合深度感知视角转换、BEV 表示以及 CenterNet 风格检测头，实现车辆距离与姿态的联合估计。
+<p class="paper-venue">《计算机工程与应用》，2026。已录用。</p>
+
+<ul>
+  <li>该工作将单目视觉下的车辆距离与姿态感知转化为 BEV 平面上的目标检测问题。</li>
+  <li>方法结合深度感知视角转换、BEV 表示以及 CenterNet 风格检测头，实现车辆距离与姿态的联合估计。</li>
+  <li><strong>说明：</strong>导师外第一作者；EI、北大核心；已录用。</li>
+</ul>
+```
 
   </div>
-
 </div>
 
-* **Junjie Lai**，Huizhi Xu. **BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception**. *IEEE Transactions on Intelligent Transportation Systems*, 2026. Under Review.
-* Huizhi Xu，**Junjie Lai**，Yulong Chen，等. **ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection**. *The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation*, 2026. EI检索。
-* Huizhi Xu，Xinying Tao，**Junjie Lai**，等. **Vehicle Tracking and Trajectory Extraction Based on Deep Learning**. *Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)*, 2026. EI检索。
+<ul class="publication-list">
+  <li><strong>Junjie Lai</strong>，Huizhi Xu. <strong>BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception</strong>. <em>IEEE Transactions on Intelligent Transportation Systems</em>, 2026. Under Review.</li>
+  <li>Huizhi Xu，<strong>Junjie Lai</strong>，Yulong Chen，等. <strong>ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection</strong>. <em>The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation</em>, 2026. EI检索。</li>
+  <li>Huizhi Xu，Xinying Tao，<strong>Junjie Lai</strong>，等. <strong>Vehicle Tracking and Trajectory Extraction Based on Deep Learning</strong>. <em>Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)</em>, 2026. EI检索。</li>
+</ul>
+
 
 
 ## 🎖 荣誉奖励 {#honors-and-awards}
