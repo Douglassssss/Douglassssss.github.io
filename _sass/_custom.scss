@@ -102,6 +102,18 @@
   }
 }
 
+/* =========================================================
+   Theme colors
+   ========================================================= */
+
+:root {
+  --site-accent: #4c3f91;
+  --site-accent-hover: #352a74;
+  --site-accent-soft: rgba(76, 63, 145, 0.28);
+  --site-accent-bg: #f5f3ff;
+  --site-text: #1f2937;
+  --site-muted: #4b5563;
+}
 
 /* =========================================================
    Footer
@@ -197,7 +209,7 @@
 .author__urls .fa-building,
 .author__urls .fa-building-columns,
 .author__urls .fa-university {
-  color: #2563eb !important;
+  color: var(--site-accent) !important;
 }
 
 /* Email icon */
@@ -308,11 +320,9 @@ body {
 }
 
 .page__content h2 {
-  font-family: inherit !important;
-  font-size: 1.22rem !important;
-  font-weight: 650 !important;
-  margin-top: 1.7rem !important;
-  margin-bottom: 0.75rem !important;
+  color: #23213d !important;
+  border-bottom: 1px solid #ebe7f6 !important;
+  padding-bottom: 0.28rem !important;
 }
 
 .page__content h3 {
@@ -369,23 +379,71 @@ body {
 }
 
 /* =========================================================
-   Link interaction and colors
+   Links: refined blue-purple accent
    ========================================================= */
 
-/* Sidebar links: restore hover interaction */
+/* Main content links */
+.page__content a {
+  color: var(--site-accent) !important;
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-decoration-color: var(--site-accent-soft) !important;
+  text-underline-offset: 3px !important;
+  transition: color 0.18s ease, text-decoration-color 0.18s ease;
+}
+
+.page__content a:hover {
+  color: var(--site-accent-hover) !important;
+  text-decoration-color: var(--site-accent-hover) !important;
+}
+
+/* Avoid forcing button links to look like text links */
+.page__content a.btn,
+.page__content .btn {
+  text-decoration: none !important;
+}
+
+/* Sidebar links */
 .author__urls li > a {
+  color: inherit !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+  transition: color 0.18s ease;
+}
+
+.author__urls li > a:hover {
+  color: var(--site-accent) !important;
+  text-decoration: none !important;
+}
+
+/* Underline only the text, not icons */
+.author__urls li > a:hover .author-link-text {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-decoration-color: var(--site-accent-soft) !important;
+  text-underline-offset: 3px !important;
+}
+
+/* CSDN link */
+.author__urls li > a.author-csdn-link {
   color: inherit !important;
   text-decoration: none !important;
   cursor: pointer !important;
 }
 
-.author__urls li > a:hover {
-  color: #1d4ed8 !important;
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
+.author__urls li > a.author-csdn-link:hover {
+  color: var(--site-accent) !important;
+  text-decoration: none !important;
 }
 
-/* Non-link items, such as WeChat name */
+.author__urls li > a.author-csdn-link:hover .author-link-text {
+  text-decoration: underline !important;
+  text-decoration-thickness: 1px !important;
+  text-decoration-color: var(--site-accent-soft) !important;
+  text-underline-offset: 3px !important;
+}
+
+/* Non-link rows, such as WeChat */
 .author__urls li .author-custom-link,
 .author-custom-link.no-link {
   color: inherit !important;
@@ -399,75 +457,14 @@ body {
   text-decoration: none !important;
 }
 
-/* Main content links */
-.page__content a {
-  color: #1d4ed8 !important;
-  text-decoration: underline !important;
-  text-decoration-color: rgba(29, 78, 216, 0.35) !important;
-  text-underline-offset: 2px !important;
+.page__content ul {
+  padding-left: 1.25rem !important;
 }
 
-.page__content a:hover {
-  color: #1e40af !important;
-  text-decoration-color: #1e40af !important;
+.page__content li {
+  margin-bottom: 0.42rem !important;
 }
 
-/* Avoid forcing button links to look like text links */
-.page__content a.btn,
-.page__content .btn {
-  text-decoration: none !important;
+.page__content li em {
+  color: var(--site-muted) !important;
 }
-
-/* =========================================================
-   Sidebar link hover: underline text only
-   ========================================================= */
-
-/* Default sidebar links */
-.author__urls li > a {
-  color: inherit !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-}
-
-/* Do not underline the whole link box */
-.author__urls li > a:hover {
-  color: #1d4ed8 !important;
-  text-decoration: none !important;
-}
-
-/* Underline only the text span */
-.author__urls li > a:hover .author-link-text {
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
-}
-
-/* Non-link rows, such as WeChat Official Account */
-.author__urls li .author-custom-link.no-link {
-  color: inherit !important;
-  text-decoration: none !important;
-  cursor: default !important;
-}
-
-/* WeChat should not behave like a link */
-.author__urls li .author-custom-link.no-link:hover {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
-/* CSDN link */
-.author__urls li > a.author-csdn-link {
-  color: inherit !important;
-  text-decoration: none !important;
-  cursor: pointer !important;
-}
-
-.author__urls li > a.author-csdn-link:hover {
-  color: #1d4ed8 !important;
-  text-decoration: none !important;
-}
-
-.author__urls li > a.author-csdn-link:hover .author-link-text {
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
-}
-
