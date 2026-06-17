@@ -10,7 +10,7 @@ lang: zh
 
 我目前是东北林业大学交通运输工程专业硕士研究生，导师为[徐慧智](https://civil.nefu.edu.cn/szdw1/jtys/xhz/grxx1.htm)。我的研究方向主要包括视觉交通目标检测与鸟瞰图感知，尤其关注路侧三维目标检测、BEV 表示学习以及单目视觉下的车辆距离与姿态估计。
 
-除学术研究外，我也会记录研究生阶段的科研实践、论文写作、技术学习和阶段性思考。部分内容会发布在微信公众号 **Douglas 交通** 和 [CSDN](https://blog.csdn.net/Douglassssssss) 上。
+除学术研究外，我也会记录研究生阶段的科研实践、论文写作、技术学习和阶段性思考。部分内容会发布在微信公众号 Douglas 交通 和 [CSDN](https://blog.csdn.net/Douglassssssss) 上。
 
 ## 📝 论文 {#publications}
 

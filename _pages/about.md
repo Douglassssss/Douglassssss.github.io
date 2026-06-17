@@ -11,7 +11,7 @@ redirect_from:
 
 I am currently a master's student in Transportation Engineering at Northeast Forestry University, advised by [Huizhi Xu(徐慧智)](https://civil.nefu.edu.cn/szdw1/jtys/xhz/grxx1.htm). My research focuses on vision-based traffic object detection and Bird's-Eye-View(BEV) perception, especially roadside 3D object detection, BEV representation learning, and monocular distance and orientation estimation for intelligent transportation systems.
 
-Besides academic research, I also write notes and reflections on graduate study, research practice, paper writing, and technical learning. I share some of these writings through my WeChat Official Account **Douglas 交通** and [CSDN](https://blog.csdn.net/Douglassssssss).
+Besides academic research, I also write notes and reflections on graduate study, research practice, paper writing, and technical learning. I share some of these writings through my WeChat Official Account Douglas 交通 and [CSDN](https://blog.csdn.net/Douglassssssss).
 
 
 ## 📝 Publications {#publications}
