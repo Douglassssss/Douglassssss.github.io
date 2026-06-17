@@ -468,3 +468,30 @@ body {
 .page__content li em {
   color: var(--site-muted) !important;
 }
+
+/* =========================================================
+   Final link underline intensity
+   ========================================================= */
+
+/* Main content links: keep underline dark by default */
+.page__content a,
+.page__content a:visited {
+  color: var(--site-accent) !important;
+  text-decoration-color: var(--site-accent) !important;
+}
+
+.page__content a:hover {
+  color: var(--site-accent-hover) !important;
+  text-decoration-color: var(--site-accent-hover) !important;
+}
+
+/* Sidebar hover underline: also use a darker underline */
+.author__urls li > a:hover .author-link-text,
+.author__urls li > a.author-csdn-link:hover .author-link-text {
+  text-decoration-color: var(--site-accent) !important;
+}
+
+/* Section title underline: make it slightly clearer */
+.page__content h2 {
+  border-bottom: 1px solid rgba(75, 63, 143, 0.38) !important;
+}

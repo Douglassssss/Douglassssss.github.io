@@ -9,9 +9,7 @@ redirect_from:
 
 <span id="about-me"></span>
 
-I am currently a master's student in **Transportation Engineering** at **Northeast Forestry University**. My research focuses on vision-based traffic perception, especially roadside 3D object detection, bird's-eye-view representation learning, and monocular distance and orientation estimation for intelligent transportation systems.
-
-My recent work studies how visual perception can be improved in roadside and traffic scenarios by combining camera geometry, depth-aware view transformation, BEV representation, and scene-level prior knowledge.
+I am currently a master's student in Transportation Engineering at Northeast Forestry University, advised by [Huizhi Xu(徐慧智)](https://civil.nefu.edu.cn/szdw1/jtys/xhz/grxx1.htm). My research focuses on vision-based traffic object detection and Bird's-Eye-View(BEV) perception, especially roadside 3D object detection, BEV representation learning, and monocular distance and orientation estimation for intelligent transportation systems.
 
 Besides academic research, I also write notes and reflections on graduate study, research practice, paper writing, and technical learning. I share some of these writings through my WeChat Official Account **Douglas 交通** and [CSDN](https://blog.csdn.net/Douglassssssss).
 
@@ -24,7 +22,7 @@ Besides academic research, I also write notes and reflections on graduate study,
 
 - Huizhi Xu, **Junjie Lai**, Yulong Chen, et al. [ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection](). In *The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation*, 2026.
 
-- Huizhi Xu, Xinying Tao, **Junjie Lai**, et al. [Vehicle Tracking and Trajectory Extraction Based on Deep Learning](). In *Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)*, 2026.
+- Huizhi Xu, Xinying Tao, **Junjie Lai**, et al. [Vehicle Tracking and Trajectory Extraction Based on Deep Learning](https://doi.org/10.1117/12.3095791). In *Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)*, 2026.
 
 
 ## 🎖 Honors and Awards {#honors-and-awards}
