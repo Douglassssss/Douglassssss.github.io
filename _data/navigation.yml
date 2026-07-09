@@ -5,9 +5,6 @@ main:
   - title: "Publications"
     url: /#publications
 
-  - title: "Honors and Awards"
-    url: /#honors-and-awards
-
   - title: "Educations"
     url: /#educations
 
@@ -23,9 +20,6 @@ main_zh:
 
   - title: "论文"
     url: /zh/#publications
-
-  - title: "荣誉奖励"
-    url: /zh/#honors-and-awards
 
   - title: "教育经历"
     url: /zh/#educations

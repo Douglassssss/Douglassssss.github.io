@@ -14,17 +14,13 @@ lang: zh
 
 ## 📝 论文 {#publications}
 
-- 徐慧智，**赖俊杰**. [BEVDistance：基于鸟瞰图特征的单目视觉车辆距离与姿态感知](). *《计算机工程与应用》*, 2026。已录用。
+- 徐慧智，**赖俊杰**. [BEVDistance：基于鸟瞰图特征的单目视觉车辆距离与姿态感知](http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.2605-0116). *《计算机工程与应用》*, 2026。已录用。
 
 - **Junjie Lai**，Huizhi Xu. [BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception](). *IEEE Transactions on Intelligent Transportation Systems*, 2026。Under Review。
 
-- Huizhi Xu，**Junjie Lai**，Yulong Chen，等. [ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection](). *The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation*, 2026。
+- Huizhi Xu，**Junjie Lai**，Yulong Chen，等. [ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection](https://link.springer.com/chapter/10.1007/978-981-95-9342-2_5). *The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation*, 2026。
 
-- Huizhi Xu，Xinying Tao，**Junjie Lai**，等. [Vehicle Tracking and Trajectory Extraction Based on Deep Learning](). *Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)*, 2026。
-
-
-
-## 🎖 荣誉奖励 {#honors-and-awards}
+- Huizhi Xu，Xinying Tao，**Junjie Lai**，等. [Vehicle Tracking and Trajectory Extraction Based on Deep Learning](https://doi.org/10.1117/12.3095791). *Ninth International Conference on Traffic Engineering and Transportation System (ICTETS 2025)*, 2026。
 
 ## 📖 教育经历 {#educations}
 
@@ -34,3 +30,8 @@ lang: zh
 
 
 ## ✍️ 博客 {#blog}
+
+<ul class="blog-list">
+  <li><a href="https://mp.weixin.qq.com/s/okupeYu99mYhPlABbgR1ig" target="_blank" rel="noopener noreferrer">文章标题待补充</a></li>
+</ul>
+

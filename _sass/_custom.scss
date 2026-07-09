@@ -495,3 +495,31 @@ body {
 .page__content h2 {
   border-bottom: 1px solid rgba(75, 63, 143, 0.38) !important;
 }
+
+/* =========================================================
+   Blog list
+   ========================================================= */
+
+.blog-list {
+  list-style: disc !important;
+  padding-left: 1.25rem !important;
+  margin-top: 0.6rem !important;
+}
+
+.blog-list li {
+  margin-bottom: 0.42rem !important;
+  line-height: 1.65 !important;
+}
+
+.page__content .blog-list a,
+.page__content .blog-list a:visited {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.page__content .blog-list a:hover {
+  color: var(--site-accent) !important;
+  text-decoration: underline !important;
+  text-decoration-color: var(--site-accent) !important;
+  text-underline-offset: 3px !important;
+}
