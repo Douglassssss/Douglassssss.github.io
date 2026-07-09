@@ -36,6 +36,26 @@ Besides academic research, I also write notes and reflections on graduate study,
 ## ✍️ Blog {#blog}
 
 <ul class="blog-list">
-  <li><a href="https://mp.weixin.qq.com/s/okupeYu99mYhPlABbgR1ig" target="_blank" rel="noopener noreferrer">文章标题待补充</a></li>
+  <li><a href="https://mp.weixin.qq.com/s/xSWnkX6ZzJIgmBbCafvWJw" target="_blank" rel="noopener noreferrer">我的中文论文投稿经历</a></li>
 </ul>
 
+<ul class="blog-list">
+  <li><a href="https://mp.weixin.qq.com/s/X1WovSUwqXakXy-Om1WdoA" target="_blank" rel="noopener noreferrer">BEVHeight 代码解读 | 模型部分</a></li>
+</ul>
+
+<ul class="blog-list">
+  <li><a href="https://mp.weixin.qq.com/s/NDOT-NUzQHg-7bmOKBIYRA" target="_blank" rel="noopener noreferrer">路侧交通环境感知文献梳理</a></li>
+</ul>
+
+<ul class="blog-list">
+  <li><a href="https://mp.weixin.qq.com/s/jxycR5fSyisCuNR59wPEkQ" target="_blank" rel="noopener noreferrer">【BEV 感知】lift-splat-shoot (lss) 代码逐行解读——训练、评估与可视化部分</a></li>
+</ul>
+
+<ul class="blog-list">
+  <li><a href="https://mp.weixin.qq.com/s/xTndJcCBA0ObX3KbpOfspQ" target="_blank" rel="noopener noreferrer">【BEV 感知】摄像机几何</a></li>
+</ul>
+
+
+<ul class="blog-list">
+  <li><a href="https://mp.weixin.qq.com/s/okupeYu99mYhPlABbgR1ig" target="_blank" rel="noopener noreferrer">【24考研·交通】我的考研经历</a></li>
+</ul>
