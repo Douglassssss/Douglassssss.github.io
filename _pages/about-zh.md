@@ -14,9 +14,9 @@ lang: zh
 
 ## 📝 论文 {#publications}
 
-- 徐慧智，**赖俊杰**. [BEVDistance：基于鸟瞰图特征的单目视觉车辆距离与姿态感知](http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.2605-0116). *《计算机工程与应用》*, 2026。已录用。
+- 徐慧智，**赖俊杰**. [BEVDistance：基于鸟瞰图特征的单目视觉车辆距离与姿态感知](http://cea.ceaj.org/CN/10.3778/j.issn.1002-8331.2605-0116). *《计算机工程与应用》*, 2026。
 
-- **Junjie Lai**，Huizhi Xu. [BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception](). *IEEE Transactions on Intelligent Transportation Systems*, 2026。Under Review。
+- **Junjie Lai**，Huizhi Xu. [BEVBank: Scene-wise BEV Memory for Roadside 3D Traffic Perception](https://ieeexplore.ieee.org/document/11797802). *IEEE Sensors Journal*, 2026。
 
 - Huizhi Xu，**Junjie Lai**，Yulong Chen，等. [ST-DeM: Enhancing DeepSORT with SwinTransformer and Attention-Augmented MobileNetV3 for Robust Illegal Parking Detection](https://link.springer.com/chapter/10.1007/978-981-95-9342-2_5). *The Proceedings of 2025 International Conference on Artificial Intelligence and Autonomous Transportation*, 2026。
 
